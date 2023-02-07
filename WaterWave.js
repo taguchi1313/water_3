@@ -2,7 +2,7 @@ class WaterWave{
   constructor(vol){
     // 波の高さ
     this.h = 0;
-    this.hMAX = map(vol, 0, 1, height*0.02, height*1.2);
+    this.hMAX = map(vol, 0, 1, height*0.01, height*1);
     // 波の横サイズ
     this.widthSet = width*1.01;
     this.width = this.widthSet;
