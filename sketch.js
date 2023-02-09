@@ -70,7 +70,7 @@ function draw() {
   if(start){
     mainDraw();
     touchOnOff();
-    sleepCount = 0;
+    //sleepCount = 0;
   }
 }
 
